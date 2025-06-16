@@ -4,10 +4,10 @@
     "private": true,
     "scripts": {
         "dev": "next dev",
-        "build": "next build && touch out/.nojekyll && cp out/index.html . && cp out/.nojekyll . && cp -r out/_next . 2>/dev/null || true",
+        "build": "next build && cp -r out/* . 2>/dev/null || true",
         "start": "next start",
         "lint": "next lint",
-        "deploy": "next build && touch out/.nojekyll && cp out/index.html . && cp out/.nojekyll . && cp -r out/_next . 2>/dev/null || true"
+        "deploy": "next build && cp -r out/* . 2>/dev/null || true"
     },
     "dependencies": {
         "@hookform/resolvers": "^3.9.1",
