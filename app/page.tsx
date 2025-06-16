@@ -153,7 +153,7 @@ export default function Portfolio() {
             <h2 className="text-3xl font-bold text-white mb-6">About Me</h2>
             <div className="bg-gray-900 rounded-lg p-6 mb-8">
               <p className="text-gray-300 text-lg leading-relaxed mb-4">
-                hello! i am a passionate software engineer with a strong background in web development. i have passions and experience in machine learning and product managememt. i have worked on many different projects cross-functionally and defined product requirements for new features to stakeholders. 
+                hello! i am a passionate software engineer with a strong background in web development. i have passions and experience in machine learning and product management. i have worked on many different projects cross-functionally and defined product requirements for new features to stakeholders. 
               </p>
               <p className="text-gray-300 text-lg leading-relaxed">
                 when i am not coding, you can find me exploring new technologies, exploring new cafes, making matcha/coffee content, and mindlessly scrolling through twitter. 
