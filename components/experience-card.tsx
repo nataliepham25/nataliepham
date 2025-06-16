@@ -4,7 +4,7 @@ interface ExperienceCardProps {
   company: string
   position: string
   duration: string
-  description: string
+  description: string | string []
   technologies: string[]
 }
 
@@ -18,7 +18,17 @@ export function ExperienceCard({ company, position, duration, description, techn
         </div>
         <span className="text-gray-400 text-sm">{duration}</span>
       </div>
-      <p className="text-gray-300 mb-4">{description}</p>
+      <div className="text-gray-300 mb-4">
+        {Array.isArray(description) ? (
+          <ul className="list-disc list-inside space-y-2">
+            {description.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        ) : (
+          <p>{description}</p>
+        )}
+      </div>
       <div className="flex flex-wrap gap-2">
         {technologies.map((tech, index) => (
           <span key={index} className="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">

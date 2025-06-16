@@ -76,49 +76,64 @@ export default function Portfolio() {
       company: "iDASH360, Inc.",
       position: "Software Engineer",
       duration: "2024 - Present",
-      description:
-        "Led development of multiple web applications, mentored junior developers, and implemented best practices for code quality and performance.",
-      technologies: ["React", "Node.js", "AWS", "MongoDB"],
+      description: [
+        "Implemented Cypress Testing on controllers to identify and mitigate UI bugs prior to production release, increasing user satisfaction rates by 7%",
+        "Developed a dynamic PowerPoint generation tool using Next.js, TypeScript, and Supabase (PostgreSQL), enabling users to import data via CSV, Excel, API, or manual entry with full CRUD functionality",
+        "Integrated custom and prebuilt PowerPoint templates with interactive UI elements, allowing users to visually define chart/table placement areas",
+        "Spearheaded user research and stakeholder interviews to shape feature requirements and prioritize roadmap, directly influencing sprint planning and backlog refinement sessions"
+      ],
+      technologies: ["Next.js", "TypeScript", "Supabase", "PostgreSQL", "Cypress"],
     },
     {
       company: "SAP",
       position: "Software Engineer Intern",
       duration: "2021 - 2023",
-      description:
-        "Developed responsive web applications, collaborated with design teams, and optimized application performance.",
-      technologies: ["Vue.js", "JavaScript", "CSS3", "Firebase"],
+      description: [
+        "Developed a full-stack feature that uses React, JavaScript, Java, and Oracle DBMS to enable customers to modify sales claims on their accounts, while analyzing customer interaction to identify usage patterns, driving a 7% increase in engagement.",
+        "Partnered with design, PM, and engineering teams to define product specs through user research and analytics, streamlining dev cycles by 15%.",
+        "Collaborated with Product Manager and Lead UX Designer to prototype and design features for SAP Eureka Cloud Services based on user feedback resulting in a 20% increase in task completion rates.",
+        "Developed a frontend feature using JavaScript and React, linked to the backend SAP Cloud Service with Java to allow SAP customers to see their service costs."
+      ],
+      technologies: ["React", "JavaScript", "CSS3", "Oracle"],
     },
     {
       company: "DocuSign",
       position: "Software Engineer Intern",
       duration: "May 2022 - August 2022",
-      description:
-        "Built and maintained web applications, participated in code reviews, and learned modern development practices.",
-      technologies: ["HTML5", "CSS3", "JavaScript", "PHP"],
+      description:[
+        "Collaborated with UX designers to develop a front-end component using TypeScript and React, enhancing accessibility by providing inline status messages on DocuSign's main webpage.",
+        "Developed personas, user journey maps, wireframe, and internationalized DocuSign Forms component, enabling cross-platform compatibility (mobile/web, dark/light modes) in 10+ languages."
+      ],
+      technologies: ["HTML5", "CSS3", "TypeScript", "React"],
     },
         {
       company: "Amazon Web Services",
       position: "Software Development Engineer Intern",
       duration: "June 2021 - August 2021",
-      description:
-        "Built and maintained web applications, participated in code reviews, and learned modern development practices.",
-      technologies: ["HTML5", "CSS3", "JavaScript", "PHP"],
+       description:[
+        "Created frontend features using JavaScript, React, Redux, HTML5/CSS3 to improve cloud resource management experience for AWS customers by decreasing the render time by 7%.",
+        "Worked on backend functions using Python and Ruby to update metrics created from CloudWatch Synthetics."
+      ],
+      technologies: ["HTML5", "CSS3", "JavaScript", "Redux", "Python", "Ruby"],
     },
         {
       company: "Intel Corporation",
       position: "Software Engineer Intern",
       duration: "January 2021 - May 2021",
-      description:
-        "Built and maintained web applications, participated in code reviews, and learned modern development practices.",
+      description:[
+        "Built two different web applications using C# and Python to optimize and seamlessly extract large data and perform software/data analysis for 4 different teams to use.",
+        "Helped engineers in performing software tests, debugging issues, and developing software test content, and improving test infrastructure that reached thousands of users" 
+
+      ],
       technologies: ["HTML5", "CSS3", "JavaScript", "PHP"],
     },
-        {
+    {
       company: "NASA",
-      position: "Software Engineer Intern",
+      position: "Computer Engineer Intern",
       duration: "August 2020 - December 2020",
       description:
-        "Built and maintained web applications, participated in code reviews, and learned modern development practices.",
-      technologies: ["HTML5", "CSS3", "JavaScript", "PHP"],
+        "Worked on systems engineering and collaborated with NASA scientists to create an automated system that detects anomalies in satellite imagery, reducing false positives by 30%.",
+      technologies: ["HTML5", "CSS3", "Java"],
     },
   ]
 
@@ -146,7 +161,7 @@ export default function Portfolio() {
             </div>
           </section>
 
-          {/* Projects Section */}
+          {/* Projects Section
           <section id="projects" className="mb-12">
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-3xl font-bold text-white">Featured Projects</h2>
@@ -159,7 +174,7 @@ export default function Portfolio() {
                 <ProjectCard key={index} {...project} />
               ))}
             </div>
-          </section>
+          </section> */}
 
           {/* Skills Section */}
           <section className="mb-12">
