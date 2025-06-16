@@ -9,7 +9,7 @@ import { Mail, Phone, MapPin } from "lucide-react"
 export default function Portfolio() {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "React Portfolio Version 1",
       description:
         "A full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
       image: "/placeholder.svg?height=200&width=300",
@@ -18,7 +18,7 @@ export default function Portfolio() {
       githubUrl: "#",
     },
     {
-      title: "Task Management App",
+      title: "Lifting App",
       description:
         "A collaborative task management application with real-time updates and team collaboration features.",
       image: "/placeholder.svg?height=200&width=300",
@@ -27,7 +27,7 @@ export default function Portfolio() {
       githubUrl: "#",
     },
     {
-      title: "Weather Dashboard",
+      title: "Portfolio Version 2",
       description: "A responsive weather dashboard with location-based forecasts and interactive charts.",
       image: "/placeholder.svg?height=200&width=300",
       technologies: ["React", "Chart.js", "OpenWeather API"],
@@ -35,7 +35,7 @@ export default function Portfolio() {
       githubUrl: "#",
     },
     {
-      title: "Social Media App",
+      title: "Monsters Rolodex App",
       description: "A social media platform with real-time messaging, post sharing, and user authentication.",
       image: "/placeholder.svg?height=200&width=300",
       technologies: ["Next.js", "Socket.io", "PostgreSQL"],
@@ -73,25 +73,49 @@ export default function Portfolio() {
 
   const experiences = [
     {
-      company: "Tech Innovations Inc.",
-      position: "Senior Full Stack Developer",
-      duration: "2022 - Present",
+      company: "iDASH360, Inc.",
+      position: "Software Engineer",
+      duration: "2024 - Present",
       description:
         "Led development of multiple web applications, mentored junior developers, and implemented best practices for code quality and performance.",
       technologies: ["React", "Node.js", "AWS", "MongoDB"],
     },
     {
-      company: "Digital Solutions Ltd.",
-      position: "Frontend Developer",
-      duration: "2020 - 2022",
+      company: "SAP",
+      position: "Software Engineer Intern",
+      duration: "2021 - 2023",
       description:
         "Developed responsive web applications, collaborated with design teams, and optimized application performance.",
       technologies: ["Vue.js", "JavaScript", "CSS3", "Firebase"],
     },
     {
-      company: "StartupXYZ",
-      position: "Junior Developer",
-      duration: "2019 - 2020",
+      company: "DocuSign",
+      position: "Software Engineer Intern",
+      duration: "May 2022 - August 2022",
+      description:
+        "Built and maintained web applications, participated in code reviews, and learned modern development practices.",
+      technologies: ["HTML5", "CSS3", "JavaScript", "PHP"],
+    },
+        {
+      company: "Amazon Web Services",
+      position: "Software Development Engineer Intern",
+      duration: "June 2021 - August 2021",
+      description:
+        "Built and maintained web applications, participated in code reviews, and learned modern development practices.",
+      technologies: ["HTML5", "CSS3", "JavaScript", "PHP"],
+    },
+        {
+      company: "Intel Corporation",
+      position: "Software Engineer Intern",
+      duration: "January 2021 - May 2021",
+      description:
+        "Built and maintained web applications, participated in code reviews, and learned modern development practices.",
+      technologies: ["HTML5", "CSS3", "JavaScript", "PHP"],
+    },
+        {
+      company: "NASA",
+      position: "Software Engineer Intern",
+      duration: "August 2020 - December 2020",
       description:
         "Built and maintained web applications, participated in code reviews, and learned modern development practices.",
       technologies: ["HTML5", "CSS3", "JavaScript", "PHP"],
@@ -114,13 +138,10 @@ export default function Portfolio() {
             <h2 className="text-3xl font-bold text-white mb-6">About Me</h2>
             <div className="bg-gray-900 rounded-lg p-6 mb-8">
               <p className="text-gray-300 text-lg leading-relaxed mb-4">
-                I'm a passionate full-stack developer with over 5 years of experience creating digital solutions that
-                make a difference. I specialize in modern web technologies and love turning complex problems into
-                simple, beautiful designs.
+                hello! i am a passionate software engineer with a strong background in web development. i have passions and experience in machine learning and product managememt. i have worked on many different projects cross-functionally and defined product requirements for new features to stakeholders. 
               </p>
               <p className="text-gray-300 text-lg leading-relaxed">
-                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects,
-                or sharing my knowledge through blog posts and mentoring.
+                when i am not coding, you can find me exploring new technologies, exploring new cafes, making matcha/coffee content, and mindlessly scrolling through twitter. 
               </p>
             </div>
           </section>
@@ -166,23 +187,19 @@ export default function Portfolio() {
             <div className="bg-gray-900 rounded-lg p-8">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
-                  <h3 className="text-xl font-semibold text-white mb-4">Let's work together</h3>
+                  <h3 className="text-xl font-semibold text-white mb-4">let's work together</h3>
                   <p className="text-gray-300 mb-6">
-                    I'm always interested in new opportunities and exciting projects. Feel free to reach out if you'd
+                    i am always interested in new opportunities and exciting projects. feel free to reach out if you'd
                     like to collaborate!
                   </p>
                   <div className="space-y-4">
                     <div className="flex items-center space-x-3">
                       <Mail className="w-5 h-5 text-green-400" />
-                      <span className="text-gray-300">john.doe@example.com</span>
-                    </div>
-                    <div className="flex items-center space-x-3">
-                      <Phone className="w-5 h-5 text-green-400" />
-                      <span className="text-gray-300">+1 (555) 123-4567</span>
+                      <span className="text-gray-300">natalieqpham5@gmail.com</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <MapPin className="w-5 h-5 text-green-400" />
-                      <span className="text-gray-300">San Francisco, CA</span>
+                      <span className="text-gray-300">new york, ny</span>
                     </div>
                   </div>
                 </div>
