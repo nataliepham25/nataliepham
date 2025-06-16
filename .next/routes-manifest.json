@@ -2,8 +2,16 @@
   "version": 3,
   "pages404": true,
   "caseSensitive": false,
-  "basePath": "",
+  "basePath": "/nataliepham",
   "redirects": [
+    {
+      "source": "/nataliepham",
+      "destination": "/nataliepham/",
+      "basePath": false,
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^/nataliepham$"
+    },
     {
       "source": "/:file((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+)/",
       "destination": "/:file",
